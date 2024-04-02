@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="container mx-auto px-8 max-w-screen-lg text-white grid grid-flow-row md:grid-flow-col items-start ">
+      <div className=" container mx-auto px-8 max-w-screen-lg text-white grid grid-flow-row md:grid-flow-col items-start ">
         <div className="mb-14 md:mb-0">
           <div className="mb-8 text-[#01d293] text-3xl">Connect with me</div>
           <div className="mb-3 text-[#809EAD] grid grid-flow-col items-center">
@@ -49,7 +49,7 @@ const Footer = () => {
                 />
               </div>
               <div className=" ">
-                <button className="bg-gray-700 hover:bg-[#01d293] transition ease-in-out duration-700 text-white py-2 px-4 rounded">
+                <button className="bg-gray-700 hover:bg-[#01d293] hover:text-white text-[#01d293] transition ease-in-out duration-700 py-2 px-4 rounded">
                   Send Message
                 </button>
               </div>

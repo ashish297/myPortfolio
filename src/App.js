@@ -1,12 +1,14 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Home from './Home';
 
 function App() {
   return (
-    <div className='bg-[#0e1630] h-screen'>
+    <div className='bg-[#0e1630] w-screen overflow-x-hidden'>
       <Navbar />
-      <Footer />
+      <Home />
+      <Footer/>
     </div>
   );
 }
