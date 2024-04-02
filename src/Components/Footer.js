@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="container mx-auto px-8 max-w-screen-lg text-white grid grid-flow-col items-start ">
-        <div>
-          <div className="mb-12 text-[#01d293] text-3xl">Connect with me</div>
+      <div className="container mx-auto px-8 max-w-screen-lg text-white grid grid-flow-row md:grid-flow-col items-start ">
+        <div className="mb-14 md:mb-0">
+          <div className="mb-8 text-[#01d293] text-3xl">Connect with me</div>
           <div className="mb-3 text-[#809EAD] grid grid-flow-col items-center">
             <i className="text-[#01d293] mr-4 text-1xl grid col-span-1 ">
               <ion-icon name="location-outline"></ion-icon>
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
         <div className="">
-          <div className="mb-12 text-[#01d293] text-3xl">Contact me</div>
+          <div className="mb-6 text-[#01d293] text-3xl">Contact me</div>
           <div>
             <form action="">
               <div className="">
