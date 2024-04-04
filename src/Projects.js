@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <>
-      <div className="container mx-auto max-w-screen-lg px-8 text-white">
+      <div className="container mx-auto max-w-screen-lg px-8 text-white mb-10">
         <div className="mb-8 text-[#01d293] text-3xl">My Projects</div>
         <div className=" grid md:grid-cols-3 gap-10 wrap ">
           <div className="h-full w-full md:h-[450px] md:w-[300px] mb-10 grid col-span-1 grid-flow-row bg-[#1d284ba1] shadow-xl p-4 rounded-lg ">
