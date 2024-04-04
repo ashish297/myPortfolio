@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-    <div className="container max-w-screen-lg mx-auto px-8 mb-14">
+    <div id="Home" className="container max-w-screen-lg mx-auto px-8 mb-14">
       <div className="bg-[#0e1630] text-white  mt-14 md:gap-10 grid grid-flow-row md:grid-flow-col items-center">
         <div className="grid col-span-1 order-3 md:order-1">
           <div className="mb-4">
