@@ -10,7 +10,9 @@ const Home = () => {
             <span className="text-[#01d293] text-5xl">Hello</span>
           </div>
           <div className="text-3xl mb-2">I'm Ashish Kumar Meena</div>
+          
           <div className="mb-2">Fullstack Developer</div>
+
           <div className="mb-5">
             Hi there! My name is Ashish Kumar Meena. I am a 2nd Year
             Undergraduate Student at Indian Institue of Technology, Kharagpur.
