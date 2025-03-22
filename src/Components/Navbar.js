@@ -47,7 +47,7 @@ const Navbar = () => {
             {" "}
             <a
               onClick={() => handleNavigation("Home")}
-              href=""
+              
               className="text-white hover:text-[#01d293] transition ease-in-out duration-300 cursor-pointer"
             >
               Tech Stack
